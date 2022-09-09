@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NodeJS test</title>
-    <script defer src="client"></script>
+    <title>Socket.IO chat</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
 </head>
 <body>
-    Dit is een test!
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
 </body>
 </html>
